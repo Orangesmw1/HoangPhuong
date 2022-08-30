@@ -28,7 +28,7 @@ header nav {
     background-color: rgb(50, 219, 138);
     color: white;
     padding: 16px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     border: none;
     cursor: pointer;
     width: 100%;
@@ -98,11 +98,13 @@ header nav {
     color: #fff;
 }
   
-.dropdown:hover .dropdown-content {
+.dropdown:active .dropdown-content {
     /* display: block; */
     height: 240px;
     opacity: 1;
 }
+
+
 
 /* ------------ section ------------  */
 section {
@@ -244,8 +246,8 @@ section {
 .name-title {
     margin-top: 50px;
 
-    width: 55%;
-    height: 70px;
+    width: 40%;
+    height: 45px;
     
 
     border-top-right-radius: 90px ;
@@ -257,7 +259,7 @@ section {
 
 
 .name-title h2 {
-    font-size: 3.5rem;
+    font-size: 2.1rem;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
@@ -291,8 +293,8 @@ section {
 
 .job-title {
     margin-top: 30px;
-    width: 65%;
-    height: 70px;
+    width: 40%;
+    height: 45px;
 
     
     border-top-left-radius: 90px ;
@@ -306,7 +308,8 @@ section {
 
 
 .job-title h2 {
-    font-size: 3.5rem;
+    font-size: 2.1rem;
+
 
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
@@ -350,8 +353,8 @@ section {
 .hobby-title {
     margin-top: 50px;
 
-    width: 55%;
-    height: 70px;
+    width: 40%;
+    height: 45px;
     
 
     border-top-right-radius: 90px ;
@@ -362,7 +365,7 @@ section {
 
 
 .hobby-title h2 {
-    font-size: 3.5rem;
+    font-size: 2.1rem;
 
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
